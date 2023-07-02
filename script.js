@@ -20,7 +20,7 @@ function main(currentTime){
     if(gameOver){
         gameOverSound.play();
         if(confirm('You lost. Press ok to restart.')){
-            window.location='/'
+            window.location='/snake-game/'
         }
         return;
     }
